@@ -195,9 +195,10 @@ http://www.tooplate.com/view/2083-steak-house
 				<div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
 					<form id="contact-form" method="POST" action="https://formspree.io/troy.techdev@gmail.com">
 						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
-						<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+						<input name="email" type="_replyto" class="form-control" placeholder="Your Email" required>
 						<textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
 						<input type="submit" class="form-control submit" value="SEND MESSAGE">
+            <input type="hidden" name="_next" value="#top" />
 					</form>
 				</div>
 			</div>
